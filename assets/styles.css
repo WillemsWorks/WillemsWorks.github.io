@@ -217,7 +217,7 @@ a { color: inherit; }
 /* ---------- Responsief ---------- */
 @media (max-width: 1000px) {
   .hero { grid-template-columns: 1fr; padding: 130px 24px 90px; min-height: 0; }
-  .hero h1, .why h2 { font-size: clamp(24px, 7vw, 40px); hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+  .hero h1, .why h2 { font-size: clamp(21px, 6.1vw, 40px); overflow-wrap: break-word; }
   .why-btns { position: static; margin-top: 16px; }
   .footer .wordmark { font-size: clamp(26px, 8.5vw, 64px); }
   .h-section { font-size: clamp(32px, 9vw, 48px); }
