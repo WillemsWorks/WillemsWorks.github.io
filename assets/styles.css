@@ -216,10 +216,16 @@ a { color: inherit; }
 
 /* ---------- Responsief ---------- */
 @media (max-width: 1000px) {
-  .hero { grid-template-columns: 1fr; padding: 130px 28px 90px; min-height: 0; }
+  .hero { grid-template-columns: 1fr; padding: 130px 24px 90px; min-height: 0; }
+  .hero h1, .why h2 { font-size: clamp(24px, 7vw, 40px); hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+  .why-btns { position: static; margin-top: 16px; }
+  .footer .wordmark { font-size: clamp(26px, 8.5vw, 64px); }
+  .h-section { font-size: clamp(32px, 9vw, 48px); }
+  .idcard-body h3 { font-size: clamp(36px, 10vw, 56px); }
   .hero-art { width: min(380px, 80%); margin-top: 30px; }
-  .why { grid-template-columns: 1fr; padding: 80px 28px 60px; gap: 32px; }
-  .idcard { grid-template-columns: 1fr; transform: rotate(2deg); margin: 30px auto; }
+  .why { grid-template-columns: 1fr; padding: 80px 24px 60px; gap: 32px; }
+  .footer { padding: 36px 24px; }
+  .idcard, .idcard:hover { grid-template-columns: 1fr; transform: none; margin: 30px auto; }
   .marquee-track img { transform: scale(.75); margin: 0 -20px; }
   .idcard-photo { height: 420px; }
   .idcard-body { padding: 36px 28px; }
