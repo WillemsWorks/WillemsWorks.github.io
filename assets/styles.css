@@ -56,7 +56,7 @@ a { color: inherit; }
 
 /* ---------- Draaiende badge ---------- */
 .badge { position: fixed; right: 28px; bottom: 28px; width: 130px; height: 130px; z-index: 40; pointer-events: none; animation: spin 18s linear infinite; }
-.badge text { font-family: var(--display); font-weight: 700; font-size: 13px; fill: var(--purple); }
+.badge text { font-family: var(--display); font-weight: 700; font-size: 10.5px; fill: var(--purple); }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ---------- Knoppen & labels ---------- */
@@ -109,7 +109,7 @@ a { color: inherit; }
 /* ---------- Logo's ---------- */
 .marquee { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
 .marquee-track { display: flex; align-items: center; gap: 64px; width: max-content; animation: marquee 40s linear infinite; }
-.marquee-track img { height: 52px; width: auto; max-width: 220px; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .85; }
+.marquee-track img { height: 40px; width: auto; max-width: 150px; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .85; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
 /* ---------- Diensten ---------- */
