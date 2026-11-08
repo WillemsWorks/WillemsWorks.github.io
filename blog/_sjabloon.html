@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[TITEL] — WillemsWorks</title>
+<meta name="description" content="[INTRO, max 155 tekens]">
+<link rel="canonical" href="https://www.willemsworks.nl/blog/[SLUG].html">
+<!-- PREVIEW: verwijderen bij livegang op willemsworks.nl -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="https://framerusercontent.com/images/6mcf62RlDfRfU61Yg5vb2pefpi4.png">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-bar">
+    <a class="logo" href="/" aria-label="WillemsWorks, naar home">
+      <svg viewBox="0 0 31.081 25" aria-hidden="true"><path fill="#3a2e59" d="M20.197 15.584c.397-.452 1.137-.06.98.519l-2.188 8.106c-.145.534.489.935.916.581l10.972-9.099a.6.6 0 0 0 .169-.628L26.129 1.74c-.191-.519-.942-.486-1.086.048l-2.437 9.025c-.118.437-.681.567-.981.226L12.079.195c-.347-.394-1-.151-1 .372v5.717c0 .452-.509.722-.888.47L.889.56C.452.269-.116.672.021 1.177L6.245 24.23c.137.505.831.572 1.063.103l2.689-5.436c.266-.539 1.082-.351 1.082.249v5.287c0 .523.653.766 1 .372z"/></svg>
+      willemsworks
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Menu">+</button>
+    <nav class="menu" id="menu">
+      <span class="menu-label">Menu</span>
+      <a href="/#diensten">Diensten</a>
+      <a href="/#doelgroep">Doelgroep</a>
+      <a href="/#testimonials">Testimonials</a>
+      <a href="/#over">Over</a>
+      <a href="/blog/">Blog</a>
+      <a href="/gov-library/">Kennisbank</a>
+      <a href="https://www.bookable.page/willemsworks/kennismaken">Afspraak maken</a>
+    </nav>
+  </div>
+</header>
+
+<svg class="badge" viewBox="0 0 100 100" aria-hidden="true">
+  <path id="ring" d="M 50,50 m -42,0 a 42,42 0 1,1 84,0 a 42,42 0 1,1 -84,0" fill="none"/>
+  <text><textPath href="#ring">willemsworks • innovation strategy •</textPath></text>
+</svg>
+
+<main>
+<article class="article">
+  <p class="meta">[DATUM] · [LEESTIJD] min</p>
+  <h1>[TITEL]</h1>
+  <p class="lead">[INTRO]</p>
+  <!-- Artikeltekst: <p>, <h2>, <blockquote>, <ul> -->
+  <aside class="related">
+    <h3>Verder lezen in de kennisbank</h3>
+    <p><a href="/gov-library/[GOV-DOC].html">[GOV-DOC NAAM]</a> — [één zin waarom]</p>
+  </aside>
+  <p style="margin-top:32px"><a class="btn btn-dark" href="https://willemsworks.substack.com">Abonneer op Substack</a></p>
+</article>
+</main>
+<div class="footer-outer">
+  <footer class="footer">
+    <div>
+      <div class="wordmark">willemsworks</div>
+      <address>Domela Nieuwenhuislaan 2<br>2314 ES Leiden<br>Nederland</address>
+      <div class="contact">
+        <a href="mailto:paul@willemsworks.nl">paul@willemsworks.nl</a>
+        <a href="tel:+31653504047">+31 6 53 50 40 47</a>
+      </div>
+      <p class="copy">© WillemsWorks <span id="year">2026</span></p>
+      <svg class="mark" viewBox="0 0 248 200" aria-hidden="true"><path fill="#c4ff48" d="M161.153 124.67c3.172-3.612 9.071-.482 7.823 4.151l-17.465 64.85c-1.15 4.272 3.904 7.482 7.314 4.646l87.542-72.785a4.8 4.8 0 0 0 1.355-5.032L208.488 13.918c-1.529-4.152-7.519-3.886-8.67.385l-19.444 72.2c-.943 3.5-5.428 4.535-7.824 1.807L96.38 1.558C93.614-1.592 88.4.354 88.4 4.537v45.732c0 3.623-4.063 5.778-7.087 3.76L7.096 4.484C3.606 2.154-.924 5.375.165 9.415l49.668 184.421c1.088 4.041 6.63 4.578 8.481.823l21.45-43.487c2.124-4.305 8.637-2.801 8.637 1.995v42.296c0 4.183 5.213 6.129 7.979 2.979z"/></svg>
+    </div>
+    <div>
+      <p class="label">Menu</p>
+      <nav>
+        <a href="/#diensten">Diensten</a>
+        <a href="/#doelgroep">Doelgroep</a>
+        <a href="/#testimonials">Testimonials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/gov-library/">Kennisbank</a>
+        <a href="https://calday.me/willemsworks">Afspraak maken</a>
+        <a href="/#over">Over</a>
+      </nav>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/paulwillems/">LinkedIn</a>
+        <a href="https://willemsworks.substack.com">Substack</a>
+        <span class="credit">Design by <a href="https://www.astudiocalledquest.com">A Studio Called Quest</a></span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  const btn = document.querySelector('.menu-btn'), menu = document.getElementById('menu');
+  btn.addEventListener('click', () => { const o = menu.classList.toggle('open'); btn.setAttribute('aria-expanded', o); });
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
