@@ -20,3 +20,9 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 - `noindex`-regel verwijderen uit `index.html` en `blog/index.html`
 - Fonts en beelden lokaal zetten in plaats van via framerusercontent.com (licentie PP Formula checken)
 - `CNAME`-bestand met `www.willemsworks.nl` toevoegen en DNS omzetten
+
+## Afspraken blog (8 november 2026)
+- Nieuwe artikelen: volledig artikel op de site (canonical), Substack krijgt een kortere afgeleide versie met link hierheen, LinkedIn-posts zonder link.
+- Eerste artikel: "Mijn tante en de banaan".
+- Daarna de bestaande Substack-artikelen één voor één overzetten, **stevig bewerkt**: eigen invalshoek, koppeling met het GOV-doc erachter (expliciet of impliciet) en een korte terugblik. Daardoor is de site-versie een eigen stuk en mag hij de bron zijn. Elk overgezet artikel is meteen een toets of de GOV-koppeling klopt.
+- Boekingen blijven via Bookable lopen (geen Calendly).
