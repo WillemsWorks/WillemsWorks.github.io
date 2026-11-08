@@ -208,6 +208,8 @@ a { color: inherit; }
 .article h1 { font-family: var(--display); font-weight: 700; font-size: clamp(32px, 4vw, 44px); line-height: 1.15; margin: 14px 0 28px; }
 .article .hero-img { margin: 0 0 32px; }
 .article .hero-img img { width: 100%; height: auto; border-radius: var(--radius); }
+.article .hero-img.getty { max-width: 594px; }
+.article .hero-img.getty iframe { max-width: 100%; }
 .article .hero-img figcaption { font-size: 13px; color: var(--grey); margin-top: 8px; }
 .article .lead { font-family: "PP Formula", var(--body); font-size: 22px; line-height: 1.45; margin-bottom: 32px; }
 .article h2 { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 40px 0 14px; }
