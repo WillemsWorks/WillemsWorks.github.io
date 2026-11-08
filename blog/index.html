@@ -88,7 +88,7 @@
   if (row) document.querySelectorAll('.usp-nav button').forEach(b => b.addEventListener('click', () => row.scrollBy({ left: b.dataset.dir * 316, behavior: 'smooth' })));
   document.getElementById('year').textContent = new Date().getFullYear();
   // Laatste drie blogposts uit /blog/posts.json
-  fetch('/blog/posts.json').then(r => r.json()).then(posts => {
+  fetch('/blog/posts.json?t=' + Date.now()).then(r => r.json()).then(posts => {
     if (!posts.length) return;
     const el = document.getElementById('latest-posts');
     el.innerHTML = posts.map(p => `<a class="post-card" href="/blog/${p.slug}.html"><span class="date">${p.datum}</span><h3>${p.titel}</h3><p>${p.intro}</p></a>`).join('');
