@@ -29,3 +29,6 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 
 ## Thumbnails in de bloglijst
 `posts.json` heeft een optioneel veld `beeld` (pad naar een afbeelding in de repo, bijv. `/blog/img/slug.jpg`). Zonder beeld toont de kaart het WillemsWorks-logo op donkerpaars. Een Getty-embed kan niet als thumbnail dienen; alleen eigen of gelicenseerde beelden.
+
+## Vaste regel: privacy van kinderen (11 november 2026)
+Geen namen van Pauls kinderen op de site. In artikelen staat "mijn dochter" of "onze dochter". Het persoonlijke zit in de details, niet in de naam. Reden (Paul): "het gaat hier niet om mij maar om haar."
