@@ -39,3 +39,11 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 
 ## Vaste regel: privacy van kinderen (11 november 2026)
 Geen namen van Pauls kinderen op de site. In artikelen staat "mijn dochter" of "onze dochter". Het persoonlijke zit in de details, niet in de naam. Reden (Paul): "het gaat hier niet om mij maar om haar."
+
+## Livegang (voorbereid 11 november 2026, branch `livegang`)
+In deze branch staat alles klaar; `main` blijft preview tot de livegang.
+- noindex verwijderd (behalve `_sjabloon.html` en `404.html`)
+- `CNAME` (www.willemsworks.nl), `sitemap.xml`, `robots.txt`, `404.html`
+- canonical/og-tags op home en blogoverzicht; BlogPosting-gegevens (JSON-LD) per artikel
+Bij de livegang: `livegang` mergen naar `main`, daarna GitHub-domeininstelling, Hostnet-DNS (MX ongemoeid), Framer-domein loskoppelen, HTTPS aan, Search Console + sitemap indienen.
+Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
