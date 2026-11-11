@@ -215,7 +215,8 @@ a { color: inherit; }
 .article .hero-img { text-align: center; }
 .article .hero-img.getty { max-width: 594px; margin-left: auto; margin-right: auto; }
 .article .hero-img.getty > * { margin-left: auto; margin-right: auto; }
-.article > .meta, .article > h1, .article > .lead, .article > .standfirst { text-align: center; }
+.article > .meta, .article > h1, .article > .subtitle, .article > .lead, .article > .standfirst { text-align: center; }
+.article > .subtitle { font-size: 22px; font-style: italic; color: var(--dark); margin: -8px auto 24px; max-width: 640px; }
 .article > .standfirst { color: var(--grey); font-size: 18px; max-width: 600px; margin: -12px auto 32px; }
 .article > .lead { max-width: 640px; margin-left: auto; margin-right: auto; }
 .article .hero-img.getty iframe { max-width: 100%; }
