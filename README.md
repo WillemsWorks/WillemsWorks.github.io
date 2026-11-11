@@ -15,7 +15,7 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 1. **Concept als markdown.** Elk nieuw artikel begint als `.md` in het Claude-project (`claude/BLOG-[Titel]_concept_v0_x.md`, nieuwe versie = nieuw bestand). Paul krijgt het bestand en reviewt daar.
 2. **Niets op de site tijdens de conceptfase.** Geen HTML-pagina, geen regel in `posts.json`, geen links vanuit andere artikelen. Reden: de titel kan nog veranderen, en de slug (URL) volgt de titel. Een URL die al geïndexeerd is en later verandert, kost vindbaarheid.
 3. **Plaatsen pas na akkoord.** Pas als Paul zegt "plaats het artikel" wordt de titel definitief, de slug vastgelegd en de pagina gebouwd (stappen hieronder). Daarna verandert de slug niet meer.
-4. Publicatiedatum: een woensdagavond (20:00). Geantedateerde planning (11 nov 2026): NS 15 jul · vakantie-artikelen 5 aug, 26 aug, 16 sep (drie weken ertussen; Goeierikken en slechterikken, De markt en de supermarkt, Titanic — volgorde nog te bevestigen) · Sanquin 7 okt · banaan 4 nov.
+4. Publicatiedatum: een woensdagavond (20:00). Geantedateerde planning (11 nov 2026): NS 15 jul · vakantie-artikelen 5 aug, 26 aug, 16 sep (drie weken ertussen; Goeierikken en slechterikken, De markt en de supermarkt, Titanic — volgorde nog te bevestigen) · Sanquin 7 okt · banaan 4 nov. Daarna (zelfde ritme, eerder in de tijd): 24 jun, 3 jun, 13 mei, 22 apr 2026 voor IKEA Museum, Het merk achter de CEO (Tesla), Matras/spijkerbroek en Vier jaar Hoomie — volgorde nog te bepalen; stevig bewerkt (eigen invalshoek + GOV-koppeling).
 5. Links vanuit andere artikelen ("Lees ook") komen er pas bij het plaatsen bij.
 
 ## Nieuw artikel plaatsen
@@ -39,11 +39,3 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 
 ## Vaste regel: privacy van kinderen (11 november 2026)
 Geen namen van Pauls kinderen op de site. In artikelen staat "mijn dochter" of "onze dochter". Het persoonlijke zit in de details, niet in de naam. Reden (Paul): "het gaat hier niet om mij maar om haar."
-
-## Livegang (voorbereid 11 november 2026, branch `livegang`)
-In deze branch staat alles klaar; `main` blijft preview tot de livegang.
-- noindex verwijderd (behalve `_sjabloon.html` en `404.html`)
-- `CNAME` (www.willemsworks.nl), `sitemap.xml`, `robots.txt`, `404.html`
-- canonical/og-tags op home en blogoverzicht; BlogPosting-gegevens (JSON-LD) per artikel
-Bij de livegang: `livegang` mergen naar `main`, daarna GitHub-domeininstelling, Hostnet-DNS (MX ongemoeid), Framer-domein loskoppelen, HTTPS aan, Search Console + sitemap indienen.
-Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
