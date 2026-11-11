@@ -11,6 +11,12 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 - `blog/_sjabloon.html` — sjabloon voor een nieuw artikel
 - De GOV Library (repo `gov-library`) verschijnt automatisch onder `/gov-library/`
 
+## Procedure nieuw artikel (vaste regel sinds 11 november 2026)
+1. **Concept als markdown.** Elk nieuw artikel begint als `.md` in het Claude-project (`claude/BLOG-[Titel]_concept_v0_x.md`, nieuwe versie = nieuw bestand). Paul krijgt het bestand en reviewt daar.
+2. **Niets op de site tijdens de conceptfase.** Geen HTML-pagina, geen regel in `posts.json`, geen links vanuit andere artikelen. Reden: de titel kan nog veranderen, en de slug (URL) volgt de titel. Een URL die al geïndexeerd is en later verandert, kost vindbaarheid.
+3. **Plaatsen pas na akkoord.** Pas als Paul zegt "plaats het artikel" wordt de titel definitief, de slug vastgelegd en de pagina gebouwd (stappen hieronder). Daarna verandert de slug niet meer.
+4. Links vanuit andere artikelen ("Lees ook") komen er pas bij het plaatsen bij.
+
 ## Nieuw artikel plaatsen
 1. Kopieer `blog/_sjabloon.html` naar `blog/[slug].html` en vul alle [PLAATSHOUDERS] in
 2. Voeg bovenaan `blog/posts.json` een regel toe
