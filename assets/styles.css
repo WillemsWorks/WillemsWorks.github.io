@@ -191,7 +191,7 @@ a { color: inherit; }
 .knowledge p { color: var(--grey); font-size: 15px; }
 
 /* ---------- Footer ---------- */
-.footer-outer { margin-top: 120px; background: var(--lavender); padding: 16px; }
+.footer-outer { width: min(1648px, calc(100% - 32px)); margin: 120px auto 16px; }
 .footer { background: var(--dark); color: var(--lime-soft); border-radius: 16px; padding: 48px 40px 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; position: relative; overflow: hidden; min-height: 520px; }
 .footer .wordmark { font-family: "PP Formula Semi Extended", var(--display); font-weight: 700; font-size: clamp(40px, 5.2vw, 78px); color: var(--lime); text-transform: lowercase; line-height: 1; }
 .footer address { font-style: normal; font-size: 20px; margin: 40px 0 28px; line-height: 1.35; }
