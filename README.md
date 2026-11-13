@@ -9,7 +9,7 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 - `blog/index.html` — overzicht van alle artikelen (leest `blog/posts.json`)
 - `blog/posts.json` — lijst van artikelen, nieuwste eerst: `{slug, titel, datum, intro}`
 - `blog/_sjabloon.html` — sjabloon voor een nieuw artikel
-- De GOV Library (repo `gov-library`) verschijnt automatisch onder `/gov-library/`
+- De GOV Library (repo `gov-library`) verschijnt automatisch onder `/bouwstenen/`
 
 ## Procedure nieuw artikel (vaste regel sinds 11 november 2026)
 1. **Concept als markdown.** Elk nieuw artikel begint als `.md` in het Claude-project (`claude/BLOG-[Titel]_concept_v0_x.md`, nieuwe versie = nieuw bestand). Paul krijgt het bestand en reviewt daar.
