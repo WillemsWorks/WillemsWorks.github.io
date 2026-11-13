@@ -48,3 +48,8 @@ In deze branch staat alles klaar; `main` blijft preview tot de livegang.
 - canonical/og-tags op home en blogoverzicht; BlogPosting-gegevens (JSON-LD) per artikel
 Bij de livegang: `livegang` mergen naar `main`, daarna GitHub-domeininstelling, Hostnet-DNS (MX ongemoeid), Framer-domein loskoppelen, HTTPS aan, Search Console + sitemap indienen.
 Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
+
+## Beeldcredits (Unsplash)
+- ns-perron-den-haag.jpg — Koos de Boer (https://unsplash.com/photos/_sa1HvG4Nqw)
+- sanquin-donatie-arm.jpg — Nils Huenerfuerst (https://unsplash.com/photos/S6xwgXRpg3U)
+- banaan-ducttape.jpg — Brando Makes Branding (https://unsplash.com/photos/93UoSouP04o); alleen thumbnail en deelafbeelding, in het artikel staat de Getty-embed
