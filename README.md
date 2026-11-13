@@ -52,4 +52,4 @@ Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
 ## Beeldcredits (Unsplash)
 - ns-perron-den-haag.jpg — Koos de Boer (https://unsplash.com/photos/_sa1HvG4Nqw)
 - sanquin-donatie-arm.jpg — Nils Huenerfuerst (https://unsplash.com/photos/S6xwgXRpg3U)
-- banaan-ducttape.jpg — Brando Makes Branding (https://unsplash.com/photos/93UoSouP04o); alleen thumbnail en deelafbeelding, in het artikel staat de Getty-embed
+- banaan-ducttape.jpg — Brando Makes Branding (https://unsplash.com/photos/93UoSouP04o) (artikel, thumbnail en deelafbeelding; vervangt sinds 13 nov 2026 de Getty-embed)
