@@ -53,4 +53,5 @@ Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
 - ns-perron-den-haag.jpg — Koos de Boer (https://unsplash.com/photos/_sa1HvG4Nqw)
 - sanquin-donatie-arm.jpg — Nils Huenerfuerst (https://unsplash.com/photos/S6xwgXRpg3U)
 - banaan-ducttape.jpg — Brando Makes Branding (https://unsplash.com/photos/93UoSouP04o) (artikel, thumbnail en deelafbeelding; vervangt sinds 13 nov 2026 de Getty-embed)
-- etm-visual-recap.jpg (+ -thumb, uitsnede blok 3) — visual recap Monique van Rooyen (Movaro) voor DenkProducties, uit de handout van Extreme Time Management met AI (3 jun 2026)
+- denk-podium-paul.jpg (+ -thumb) — foto DenkProducties uit de handout van Extreme Time Management met AI (3 jun 2026), uitsnede
+- etm-visual-recap.jpg (in de tekst; -thumb ongebruikt) — visual recap Monique van Rooyen (Movaro) voor DenkProducties, uit de handout van Extreme Time Management met AI (3 jun 2026)
