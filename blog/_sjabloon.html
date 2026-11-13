@@ -8,7 +8,7 @@
 <meta name="description" content="[INTRO, max 155 tekens]">
 <link rel="canonical" href="https://www.willemsworks.nl/blog/[SLUG].html">
 <link rel="icon" href="https://framerusercontent.com/images/6mcf62RlDfRfU61Yg5vb2pefpi4.png">
-<link rel="stylesheet" href="/assets/styles.css?v=11">
+<link rel="stylesheet" href="/assets/styles.css?v=13">
 </head>
 <body>
 
@@ -38,16 +38,31 @@
 
 
 <main>
-<article class="article">
+<article class="article has-about">
   <p class="meta">[DATUM] · [LEESTIJD] min</p>
   <h1>[TITEL]</h1>
-  <p class="lead">[INTRO]</p>
-  <!-- Artikeltekst: <p>, <h2>, <blockquote>, <ul> -->
-  <aside class="related">
-    <h3>Verder lezen in de kennisbank</h3>
-    <p><a href="/gov-library/[GOV-DOC].html">[GOV-DOC NAAM]</a> — [één zin waarom]</p>
-  </aside>
-  <p style="margin-top:32px"><a class="btn btn-dark" href="https://willemsworks.substack.com">Abonneer op Substack</a></p>
+  <!-- optioneel: <p class="subtitle">[ONDERTITEL]</p> -->
+  <div class="article-grid">
+    <div class="article-body">
+      <p class="lead">[EERSTE ALINEA]</p>
+      <!-- Artikeltekst: <p>, <h2>, <blockquote>, <ul> -->
+      <aside class="related">
+        <h3>Bronnen</h3>
+        <p><a href="[URL]">[BRON]</a></p>
+      </aside>
+      <!-- GOV-doc-links alleen na besluit Paul; GOV Library is openbaar maar noindex -->
+      <p style="margin-top:32px"><a class="btn btn-dark" href="https://willemsworks.substack.com">Abonneer op Substack</a></p>
+    </div>
+    <aside class="about" aria-label="Waar gaat dit over?">
+      <h3>Waar gaat dit over?</h3>
+      <h4>Het verhaal</h4>
+      <p>[VERHAAL — ik-vorm, beschrijft het verhaal zonder de conclusie weg te geven]</p>
+      <h4>Het idee erachter</h4>
+      <p>[HET CONSTRUCT IN 1-2 ZINNEN]</p>
+      <h4>Thema's</h4>
+      <ul class="tags"><li>[THEMA]</li><li>[THEMA]</li><li>[THEMA]</li></ul>
+    </aside>
+  </div>
 </article>
 </main>
 <div class="footer-outer">

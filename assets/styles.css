@@ -258,3 +258,21 @@ a { color: inherit; }
   .section { padding-top: 90px; }
 }
 @media (prefers-reduced-motion: reduce) { .badge, .marquee-track { animation: none; } html { scroll-behavior: auto; } }
+
+/* Artikel met kader "Waar gaat dit over?" (13 nov 2026) */
+.article.has-about { width: min(1120px, calc(100% - 40px)); }
+.article.has-about > .meta, .article.has-about > h1, .article.has-about > .subtitle { max-width: 820px; margin-left: auto; margin-right: auto; }
+.article-grid { display: grid; grid-template-columns: minmax(0, 720px) 320px; gap: 56px; justify-content: center; margin-top: 16px; }
+.article-body > .lead { text-align: left; max-width: none; }
+.about { position: sticky; top: 140px; align-self: start; background: var(--lavender-soft); border-radius: var(--radius); padding: 24px 26px; }
+.about h3 { font-size: 13px; color: var(--purple); letter-spacing: .06em; text-transform: uppercase; margin: 0 0 14px; }
+.about h4 { font-family: var(--display); font-weight: 700; font-size: 15px; margin: 16px 0 4px; color: var(--dark); }
+.about h3 + h4 { margin-top: 0; }
+.article .about p { font-size: 16px; line-height: 1.55; margin: 0; }
+.about .tags { list-style: none; padding: 0; margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.article .about .tags li { font-size: 13px; line-height: 1; margin: 0; padding: 7px 11px; border-radius: 999px; background: #fff; color: var(--dark); }
+@media (max-width: 1100px) {
+  .article.has-about { width: min(720px, calc(100% - 40px)); }
+  .article-grid { grid-template-columns: 1fr; gap: 0; }
+  .about { position: static; order: -1; margin-bottom: 32px; }
+}

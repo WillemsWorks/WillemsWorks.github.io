@@ -16,7 +16,8 @@ Ontwerp: A Studio Called Quest (origineel in Framer), in november 2026 nagebouwd
 2. **Niets op de site tijdens de conceptfase.** Geen HTML-pagina, geen regel in `posts.json`, geen links vanuit andere artikelen. Reden: de titel kan nog veranderen, en de slug (URL) volgt de titel. Een URL die al geïndexeerd is en later verandert, kost vindbaarheid.
 3. **Plaatsen pas na akkoord.** Pas als Paul zegt "plaats het artikel" wordt de titel definitief, de slug vastgelegd en de pagina gebouwd (stappen hieronder). Daarna verandert de slug niet meer.
 4. Publicatiedatum: een woensdagavond (20:00). Geantedateerde planning (11 nov 2026): NS 15 jul · vakantie-artikelen 5 aug, 26 aug, 16 sep (drie weken ertussen; Goeierikken en slechterikken, De markt en de supermarkt, Titanic — volgorde nog te bevestigen) · Sanquin 7 okt · banaan 4 nov. Daarna (zelfde ritme, eerder in de tijd): 24 jun, 3 jun, 13 mei, 22 apr 2026 voor IKEA Museum, Het merk achter de CEO (Tesla), Matras/spijkerbroek en Vier jaar Hoomie — volgorde nog te bepalen; stevig bewerkt (eigen invalshoek + GOV-koppeling).
-5. Links vanuit andere artikelen ("Lees ook") komen er pas bij het plaatsen bij.
+5. Elk artikel krijgt het kader "Waar gaat dit over?" (zie `_sjabloon.html`): het verhaal in de ik-vorm zonder de conclusie weg te geven, het idee erachter, en drie thema's. Geen losse intro meer onder de titel.
+6. Links vanuit andere artikelen ("Lees ook") komen er pas bij het plaatsen bij.
 
 ## Nieuw artikel plaatsen
 1. Kopieer `blog/_sjabloon.html` naar `blog/[slug].html` en vul alle [PLAATSHOUDERS] in
