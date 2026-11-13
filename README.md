@@ -55,3 +55,4 @@ Nieuwe artikelen na de livegang: JSON-LD-blok meenemen en sitemap.xml bijwerken.
 - banaan-ducttape.jpg — Brando Makes Branding (https://unsplash.com/photos/93UoSouP04o) (artikel, thumbnail en deelafbeelding; vervangt sinds 13 nov 2026 de Getty-embed)
 - denk-podium-paul.jpg (+ -thumb) — foto DenkProducties uit de handout van Extreme Time Management met AI (3 jun 2026), uitsnede
 - etm-visual-recap.jpg (in de tekst; -thumb ongebruikt) — visual recap Monique van Rooyen (Movaro) voor DenkProducties, uit de handout van Extreme Time Management met AI (3 jun 2026)
+- picnic-bezorger.jpg (+ -thumb) — foto Picnic (bezorger met krat). Geplaatst met bronvermelding "Foto: Picnic" op verzoek van Paul (13 nov 2026); toestemming van Picnic niet gevraagd.
